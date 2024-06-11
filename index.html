@@ -1,0 +1,189 @@
+<html>
+<head>
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: Arial;
+		padding: 10px;
+		background: #f1f1f1;
+	}
+
+	/* Header/Blog Title */
+	.header {
+		padding: 30px;
+		text-align: center;
+		background-image: url("bcgrn.jpeg");
+		background-repeat:
+		color: black;
+	}
+
+	.header h1 {
+		font-size: 50px;
+	}
+
+	/* Style the top navigation bar */
+	.topnav {
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	/* Style the topnav link */
+	.topnav a{
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	/* Change color on hover */
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	} 
+
+	/* Create two u unequal columns that floats next to each other */
+	/* Left column */
+	.leftcolum {
+		float: left;
+		width: 75%;
+	}  
+
+	/* Right column */
+	.rightcolum {
+		float: left;
+		width: 25%;
+		background-color: #f1f1f1;
+		padding-left: 20px;
+	}
+
+	/* Fake image */
+	.fakeimg {
+		background-color: #aaa;
+		width: 100%;
+		padding: 20px;
+	}
+
+	/* Add a card effect for articles */
+	.card {
+		background-color: white;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	/* clear float after the columns */
+	.row::after {
+		content:  "";
+		display: table;
+		clear: both;
+	}
+
+	/* Footer */
+	.foter {
+		padding: 20px;
+		text-align: center;
+		background: #ddd;
+		margin-top: 20px;
+	}
+
+	/* Responsive layout - when the screen is less than 800px wide, make the twocolumns stack on top of each other instead of next to each  other */
+	@media screen and (max-width: 800px) {
+		.leftcolum, .rightcolum {
+			width: 100%;
+			padding: 0;
+		}
+	}
+	
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 400px) {
+		.topnav a {
+			float: none;
+			width: 100px;
+		}
+	}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>Menjual Berbagai Bouqet "Toko Fhirip"</h1>
+</div>
+
+<div class="topnav">
+	<a href="#">HOME</a>
+	<a href="#">KATALOG</a>
+	<a href="#">PEMBELIAN</a>
+	<a href="#" style="float: right">KELUAR</a>
+</div> 
+
+<div class="row">
+	<div class="leftcolum">
+		<div class="card">
+			<h2>FHIRIF FLORIST</h2>
+			<h5>Deskripsi! 24 Februari 2024</h5>
+			<img src="bgkwt.jpeg" style="height: 400px;">
+			<p>Kalian lagi cari bouqet dengan desain dan style kekinian buat wisuda, wedding atau birthday? cari aja di toko kami.</p>
+			<p>Kami juga menyediakan fitur request sesuai keinginan kalian, agar kalian mendapatkan hasil yang memuaskan</p>
+			<p>Buat pemasanan dan informasi lebih lanjut Hubungi No.Tpl/email di atas, dan juga bisa langsung datang ke toko kami untuk alamatnya sudah tertera di atas ya guys.</p>
+			<p>Jangan lupa mampir dan memesan bouqet ditoko kami ya, harga mulai dari 25k aja lohh!! Terimakasih...!</p>
+		</div>
+            <div class="card">
+			<img src="uang 2.jpg" style="height: 400px;">
+			<p>Kalian lagi cari bouqet dengan desain dan style kekinian buat wisuda, wedding atau birthday? cari aja di toko kami.</p>
+			<p>Kami juga menyediakan fitur request sesuai keinginan kalian, agar kalian mendapatkan hasil yang memuaskan</p>
+			<p>Buat pemasanan dan informasi lebih lanjut Hubungi No.Tpl/email di atas, dan juga bisa langsung datang ke toko kami untuk alamatnya sudah tertera di atas ya guys.</p>
+			<p>Jangan lupa mampir dan memesan bouqet ditoko kami ya, harga mulai dari 25k aja lohh!! Terimakasih...!</p>
+		</div>
+            <div class="card">
+			<img src="bunga 1.webp" style="height: 400px;">
+			<p>Kalian lagi cari bouqet dengan desain dan style kekinian buat wisuda, wedding atau birthday? cari aja di toko kami.</p>
+			<p>Kami juga menyediakan fitur request sesuai keinginan kalian, agar kalian mendapatkan hasil yang memuaskan</p>
+			<p>Buat pemasanan dan informasi lebih lanjut Hubungi No.Tpl/email di atas, dan juga bisa langsung datang ke toko kami untuk alamatnya sudah tertera di atas ya guys.</p>
+			<p>Jangan lupa mampir dan memesan bouqet ditoko kami ya, harga mulai dari 25k aja lohh!! Terimakasih...!</p>
+		</div>
+            <div class="card">
+			<img src="wdg 2.webp" style="height: 400px;">
+			<p>Kalian lagi cari bouqet dengan desain dan style kekinian buat wisuda, wedding atau birthday? cari aja di toko kami.</p>
+			<p>Kami juga menyediakan fitur request sesuai keinginan kalian, agar kalian mendapatkan hasil yang memuaskan</p>
+			<p>Buat pemasanan dan informasi lebih lanjut Hubungi No.Tpl/email di atas, dan juga bisa langsung datang ke toko kami untuk alamatnya sudah tertera di atas ya guys.</p>
+			<p>Jangan lupa mampir dan memesan bouqet ditoko kami ya, harga mulai dari 25k aja lohh!! Terimakasih...!</p>
+		</div>
+	</div>
+	<div class="rightcolum">
+	<div class="card">
+		<h2>TENTANG TOKO</h2>
+		<img src="fhirip florist.jpeg" style="height: 250px;">
+		<img src="flower project.jpeg" style="height: 150px;">
+		<P>Menyediakan berbagai macam buoqet</P>
+		<P>Seperti bouqet wisuda, birthday, motherdays, wedding dan lain-lain</P>
+		<P>Bisa request sesuai keininan pembeli</P>
+	</div>
+	<div class="card">
+		<h3>PRICELIST DAN TESTIMONI</h3>
+		<img src="pricelist bouqet.jpeg" style="height: 200px">
+		<img src="bunga 2.jpg" style="height: 200px;">
+		<img src="uang 2.jpg" style="height: 200px;">
+		<img src="wdg 2.webp" style="height: 200px;">
+		<img src="wisuda.jpg" style="height: 200px;">
+	<div class="card">
+		<h3>Hubungi Kami</h3>
+		<img src="wp.jpg" style="height: 50px;">
+		<img src="tt.jpg" style="height: 50px;">
+		<img src="ig.png" style="height: 50px;">
+		<img src="fb.png" style="height: 50px;">
+		<P>Shopee : fpflorist24</P>
+	</div>
+</div>
+</div>
+
+<div class="footer">
+<h2>Footer</h2>
+</div>
+<a href="link_perkumpulan_bengs.html">Kembali</a><br>
+
+</body>
+</html>
